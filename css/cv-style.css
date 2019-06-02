@@ -1,0 +1,165 @@
+body {
+-webkit-print-color-adjust:exact;
+margin:0;
+background-color:#F8F8F8;
+font-family: 'Roboto Mono', monospace;
+font-size:0.7em;
+color:#333333;
+}
+
+/*PRINTING*/
+@page {
+margin:0;
+}
+
+#wrapper {
+width:210mm;
+height:297mm;
+margin:0 auto;
+box-shadow: 0px 0px 30px 0px #808080;
+}
+
+#left-col {
+float:left;
+height:100%;
+width:55mm;
+padding-left:4mm;
+padding-right:4mm;
+background-color:#f3f3f3;
+}
+
+#left-col h1 {
+text-align:center;
+background-color:#acd59a;
+color:white;
+font-size:1.5em;
+}
+
+#right-col {
+float:left;
+height:100%;
+width:139mm;
+padding-left:4mm;
+padding-right:4mm;
+background-color:#ffffff;
+}
+
+#right-col h1 {
+text-align:center;
+background-color:#acd59a;
+color:white;
+font-size:2em;
+margin-top:4mm;
+margin-bottom:4mm;
+}
+
+#right-col h2 {
+font-size:1.4em;
+margin-top:1mm;
+margin-bottom:1mm;
+}
+
+#right-col h3 {
+margin-top:1mm;
+margin-bottom:1mm;
+}
+
+#name {
+text-align:center;
+font-family:'Oswald', sans-serif;
+font-size:4.5em;
+color:#000000;
+}
+
+#personal {
+text-align:center;
+}
+
+.contact-item {
+margin-left:5mm;
+margin-top:2mm;
+margin-bottom:2mm;
+}
+
+.contact-item img {
+width:4mm;
+display:inline-block;
+vertical-align:middle;
+}
+
+.contact-item p {
+width:42mm;
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+}
+
+.skill-item {
+margin-left:5mm;
+margin-top:1mm;
+margin-bottom:1mm;
+}
+
+.skill-item p {
+width:25mm;
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+}
+
+.level-container {
+background-color:#333333;
+border-radius:1em;
+width:15mm;
+padding:0.1em;
+display:inline-block;
+vertical-align:middle;
+}
+
+.level {
+background-color:#acd59a;
+height:0.8em;
+border-radius:1em;
+}
+
+#interests ul {
+padding-left:0;
+margin-left:9mm;
+}
+
+#interests li {
+margin-top:2mm;
+margin-bottom:2mm;
+}
+
+#references p {
+color:#000000;
+text-align:center;
+padding-top:10mm;
+}
+
+#education h2 {
+margin-top:3mm;
+}
+
+#education ul{
+padding-left:0;
+margin-left:4mm;
+}
+
+#education li {
+margin-top:1mm;
+margin-bottom:1mm;
+}
+
+.coursework-item {
+margin-top:1mm;
+margin-bottom:1mm;
+}
+
+.coursework-item span {
+font-weight: bold;
+float:right;
+}
